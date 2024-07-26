@@ -1,0 +1,15 @@
+[package]
+name = "message"
+version = "1.0.0"
+authors = []
+
+[addresses]
+  ownerAddress = "4cf159f0a4d58f7650423ad0cd65b8f80cd8ee0931a85c08754c8dfd8045e331"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
